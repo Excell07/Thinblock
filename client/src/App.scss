@@ -1,0 +1,16 @@
+@import './styles/reset';
+@import './styles/index';
+@import './styles/globals/colors';
+@import './styles/globals/font-styles';
+@import './styles/globals/btns';
+@import './styles/globals/rows-and-cols/rows';
+
+@import './styles/components/two-col';
+
+@import './styles/components/nav/desktopNav';
+@import './styles/components/nav/footer';
+@import './styles/components/connection';
+@import './styles/components/hero';
+@import './styles/components/content-flex-col';
+@import './styles/components/timeline';
+@import './styles/components/errorPage';

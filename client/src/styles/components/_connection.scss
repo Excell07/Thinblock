@@ -1,0 +1,196 @@
+.welcome__user {
+  text-align: center;
+  // padding: 4px 0px;
+  padding: 10px 12px;
+
+  &-hey {
+    background-image: linear-gradient(to right, rgb(91, 116, 234), rgb(51, 178, 224));
+    font-size: 32px;
+    margin-bottom: 12px;
+    font-weight: bolder;
+    background-clip: text;
+    -webkit-text-fill-color: transparent; // Non-standard
+  }
+}
+
+@media (min-width: 992px){
+.welcome__user {
+  text-align: start;
+  padding: 10px 12px;
+  }  
+}
+
+@media (min-width: 768px){
+.welcome__user-hey {
+    font-size: 36px;
+    letter-spacing: 2px;
+  }
+}
+
+@media (min-width: 768px){
+.welcome__user-start {
+    font-size: 28px;
+    letter-spacing: 0.5px;
+  }
+}
+
+.welcome__user-start {
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+}
+
+.user__xyz {
+  padding: 4px 0px;
+  text-align: center;
+  &-req {
+    width: 150px;
+    height: 40px;
+    text-transform: uppercase;
+    box-shadow: rgb(199, 219, 251) 0px 2px 5px 0px;
+    font-size: 12px !important;
+    background-color: rgb(254, 254, 254) !important;
+    color: rgb(24, 87, 200) !important;
+    margin: 6px 10px;
+    border-radius: 5px;
+    border-width: 1px !important;
+    border-style: solid !important;
+    border-color: rgb(255, 255, 255) !important;
+    border-image: initial !important;
+  }
+
+  &-doc {
+    width: 150px;
+    height: 40px;
+    text-transform: uppercase;
+    box-shadow: rgb(199, 219, 251) 0px 2px 5px 0px;
+    font-size: 12px !important;
+    background-color: rgb(10, 73, 172) !important;
+    color: rgb(254, 254, 254) !important;
+    margin: 6px 10px;
+    border-radius: 5px;
+    border-width: 1px !important;
+    border-style: solid !important;
+    border-color: rgb(10, 73, 172) !important;
+    border-image: initial !important;
+  }
+}
+
+.user-btn {
+  color: #007bff;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.container-outer {
+  min-height: 200px;
+  background-color: rgb(246, 249, 252);
+  clip-path: polygon(0px 40px, 100% 0px, 100% 100%, 0px 100%);
+  padding: 80px 0px;
+}
+
+@media (min-width: 992px){
+
+.container-outer {
+      clip-path: polygon(0px 80px, 100% 0px, 100% 100%, 0px 100%);
+      padding: 180px 0px 120px;
+      // height: 400px;
+  }
+}
+
+// @media (min-width: 992px){
+//   .container-outer {
+//       clip-path: polygon(0px 80px, 100% 0px, 100% calc(100% - 80px), 0px 100%);
+//       padding: 150px 0px;
+//   }
+// }
+
+
+@media (min-width: 768px){
+
+.container-outer {
+      clip-path: polygon(0px 60px, 100% 0px, 100% 100%, 0px 100%);
+      padding: 100px 0px 80px;
+  }
+}
+
+@media (min-width: 992px){
+
+  .container-outer {
+      // padding: 80px 0px 60px;
+      padding: 150px 0;
+  }
+}
+
+
+
+
+
+
+// delete the code below
+
+// .gEUasH {
+//   text-align: start;
+//   padding: 4px 0px;
+// }
+
+// .ihfRXL {
+//   font-size: 36px;
+//   letter-spacing: 2px;
+// }
+
+// .ihfRXL {
+//   background-image: linear-gradient(to right, rgb(91, 116, 234), rgb(51, 178, 224));
+//   font-weight: bold;
+//   background-clip: text;
+//   -webkit-text-fill-color: transparent;
+// }
+
+// .kVSVAd {
+//   font-size: 28px;
+//   letter-spacing: 0.5px;
+//   font-weight: 600;
+//   color: rgb(0, 0, 0);
+// }
+
+// .fjeZeq {
+//   padding: 4px 0px;
+//   text-align: center;
+// }
+
+// .test {
+//   color: #007bff;
+//   text-decoration: none;
+//   background-color: transparent;
+// }
+
+// .iqTJcp {
+//   width: 150px;
+//   height: 40px;
+//   text-transform: uppercase;
+//   box-shadow: rgb(199, 219, 251) 0px 2px 5px 0px;
+//   font-size: 12px !important;
+//   background-color: rgb(254, 254, 254) !important;
+//   color: rgb(24, 87, 200) !important;
+//   margin: 6px 10px;
+//   border-radius: 5px;
+//   border-width: 1px !important;
+//   border-style: solid !important;
+//   border-color: rgb(255, 255, 255) !important;
+//   border-image: initial !important;
+// }
+
+// .cterBo {
+//   width: 150px;
+//   height: 40px;
+//   text-transform: uppercase;
+//   box-shadow: rgb(199, 219, 251) 0px 2px 5px 0px;
+//   font-size: 12px !important;
+//   background-color: rgb(10, 73, 172) !important;
+//   color: rgb(254, 254, 254) !important;
+//   margin: 6px 10px;
+//   border-radius: 5px;
+//   border-width: 1px !important;
+//   border-style: solid !important;
+//   border-color: rgb(10, 73, 172) !important;
+//   border-image: initial !important;
+// }
